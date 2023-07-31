@@ -13,6 +13,15 @@
     @apply cursor-pointer;
   }
 }
+body{
+	background: rgba(186, 186, 216, 0.5);
+	animation-name: fade-in;
+	animation-duration: 02s;
+}
+@keyframes fade-in{
+	from{opacity: 0;}
+	to {opacity: 1;}
+}
 
 .content-div{
   background-repeat:no-repeat ;

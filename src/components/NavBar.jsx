@@ -6,11 +6,12 @@ import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
+  
   const [nav, setNav] = useState(false);
 
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a172f] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a172f] text-gray-300 sm:mb-[200px]">
       <div>
         <img src={Logo} alt="Logo" style={{ width: "50px" }} />
       </div>
@@ -100,12 +101,12 @@ const NavBar = () => {
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ed3237]">
-            <a
+            <Link to="contact" smooth={true} duration={500}
               className="flex justify-between w-full item-center text-gray-300"
-              href="/" target="_blank" rel="noreferrer"
+              href="{Contact}" 
             >
               Email <HiOutlineMail size={30} />
-            </a>
+            </Link>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a

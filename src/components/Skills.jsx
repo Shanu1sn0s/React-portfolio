@@ -4,6 +4,7 @@ import CSS from "../assets/css.png";
 import JAVASCRIPT from "../assets/javascript.png";
 import REACT from "../assets/react.png";
 import GIT from "../assets/github.png";
+import TAILWIND from "../assets/tailwind.png";
 
 const Skills = () => {
   return (
@@ -20,7 +21,7 @@ const Skills = () => {
           </p>
         </div>
         {/*Icons container */}
-        <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-4">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-6 gap-4 text-center py-4">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 m-auto" src={HTML} alt="Html" />
             <p className="my-4">HTML</p>
@@ -36,6 +37,10 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 m-auto" src={REACT} alt="React" />
             <p className="my-4">REACT.js</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 m-auto" src={TAILWIND} alt="React" />
+            <p className="my-4">TAILWIND</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 m-auto" src={GIT} alt="React" />

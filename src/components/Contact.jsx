@@ -12,9 +12,9 @@ const Contact = () => {
           <p className="text-4xl font-bold inline text-gray-400 border-b-4 border-red-600 hover:border-b-0 transition-[300ms]">
             Contact
           </p>
-          <p className="text-gray-300 py-4">
+          {/* <p className="text-gray-300 py-4">
             / / Submit the form or send me an email - <span id="blink">Ademayowa4@gmail.com</span>
-          </p>
+          </p> */}
         </div>
         <input
           className="bg-[#ccd6f6] p-2 "

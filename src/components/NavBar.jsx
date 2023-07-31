@@ -86,7 +86,7 @@ const NavBar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700">
             <a
               className="flex justify-between w-full item-center text-gray-300"
-              href="https://www.linkedin.com/feed/"
+              href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -94,7 +94,7 @@ const NavBar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between w-full item-center text-gray-300"
-              href="https://github.com/Shanu1sn0s"
+              href="https://github.com/Shanu1sn0s" target="_blank" rel="noreferrer"
             >
               GitHub <FaGithub size={30} />
             </a>
@@ -102,7 +102,7 @@ const NavBar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ed3237]">
             <a
               className="flex justify-between w-full item-center text-gray-300"
-              href="/"
+              href="/" target="_blank" rel="noreferrer"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -110,7 +110,7 @@ const NavBar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between w-full item-center text-gray-300"
-              href="Olayinka shanu Resume.pdf" download='Olayinka Olayinka shanu Resume'
+              href="Olayinka shanu Resume.pdf" download='Olayinka Olayinka shanu Resume' target="_blank" rel="noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

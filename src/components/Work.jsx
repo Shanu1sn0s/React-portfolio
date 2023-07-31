@@ -26,12 +26,12 @@ const Work = () => {
                 Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://ola-todo-list.netlify.app/">
+                <a href="https://ola-todo-list.netlify.app/" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Shanu1sn0s/To-do-list">
+                <a href="https://github.com/Shanu1sn0s/To-do-list" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -49,12 +49,12 @@ const Work = () => {
                 Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://incredible-zuccutto-c3d116.netlify.app/">
+                <a href="https://incredible-zuccutto-c3d116.netlify.app/" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Shanu1sn0s/card-project">
+                <a href="https://github.com/Shanu1sn0s/card-project" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>

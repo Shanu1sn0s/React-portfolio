@@ -6,13 +6,14 @@ const Contact = () => {
       name="contact"
       className="w-full h-screen bg-[#0a172f] flex justify-center items-center p-4 text-gray-300"
     >
+      
       <form action="https://getform.io/f/a29a6be5-577c-44f0-8024-730d8abf6918" method="POST" className="flex flex-col max-w-[600px] w-full text-gray-900">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-red-600">
+          <p className="text-4xl font-bold inline text-gray-400 border-b-4 border-red-600 hover:border-b-0 transition-[300ms]">
             Contact
           </p>
           <p className="text-gray-300 py-4">
-            / / Submit the form or send me an email - Shanuolayinka4@gmail.com
+            / / Submit the form or send me an email - <span id="blink">Ademayowa4@gmail.com</span>
           </p>
         </div>
         <input

@@ -18,30 +18,30 @@ const NavBar = () => {
       {/*Menu */}
 
       <ul className="hidden md:flex">
-        <li className=" hover:text-red-600 duration-200">
+        <li className=" hover:text-red-600 active:text-blue-600 duration-200">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className=" hover:text-red-600 duration-200">
+        <li className=" hover:text-red-600 active:text-blue-600 duration-200">
           {" "}
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className=" hover:text-red-600 duration-200">
+        <li className=" hover:text-red-600 active:text-blue-600 duration-200">
           {" "}
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className=" hover:text-red-600 duration-200">
+        <li className=" hover:text-red-600 active:text-blue-600 duration-200">
           {" "}
           <Link to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className=" hover:text-red-600 duration-200">
+        <li className=" hover:text-red-600 active:text-blue-600 duration-200">
           {" "}
           <Link to="contact" smooth={true} duration={500}>
             Contact
@@ -86,7 +86,7 @@ const NavBar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700">
             <a
               className="flex justify-between w-full item-center text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/feed/"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -94,7 +94,7 @@ const NavBar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between w-full item-center text-gray-300"
-              href="/"
+              href="https://github.com/Shanu1sn0s"
             >
               GitHub <FaGithub size={30} />
             </a>
@@ -110,7 +110,7 @@ const NavBar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between w-full item-center text-gray-300"
-              href="/"
+              href="Olayinka shanu Resume.pdf" download='Olayinka Olayinka shanu Resume'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

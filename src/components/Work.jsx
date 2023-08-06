@@ -1,6 +1,6 @@
 import React from "react";
 import Todo from "../assets/Todo.PNG";
-import Cloud from "../assets/cloud-management.PNG";
+import Cloud from "../assets/Cloud-management.PNG";
 
 const Work = () => {
   return (
@@ -26,12 +26,20 @@ const Work = () => {
                 Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://ola-todo-list.netlify.app/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://ola-todo-list.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Shanu1sn0s/To-do-list" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/Shanu1sn0s/To-do-list"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -49,12 +57,20 @@ const Work = () => {
                 Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://cloud-mng.netlify.app/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://cloud-mng.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Shanu1sn0s/Cloud-Management-LP" target="_blank" rel="noreferrer">
+                <a
+                  href="https://github.com/Shanu1sn0s/Cloud-Management-LP"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>

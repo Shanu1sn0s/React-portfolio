@@ -1,6 +1,6 @@
 import React from "react";
 import Todo from "../assets/Todo.PNG";
-import CARD from "../assets/Payment.PNG";
+import Cloud from "../assets/cloud-management.PNG";
 
 const Work = () => {
   return (
@@ -40,7 +40,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${CARD})` }}
+            style={{ backgroundImage: `url(${Cloud})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/*Hover effect*/}
@@ -49,12 +49,12 @@ const Work = () => {
                 Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://incredible-zuccutto-c3d116.netlify.app/" target="_blank" rel="noreferrer">
+                <a href="https://cloud-mng.netlify.app/" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Shanu1sn0s/card-project" target="_blank" rel="noreferrer">
+                <a href="https://github.com/Shanu1sn0s/Cloud-Management-LP" target="_blank" rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
